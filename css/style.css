@@ -42,7 +42,9 @@ gradiente vertical #c9d244   #c7d135
 body {
     font-family: 'Work Sans Regular', sans-serif;
 }
-
+.body-respuesta{
+    background-color: #1d1d1b;
+}
 .strong{
     font-family: 'Work Sans Bold', sans-serif !important;
 }
@@ -95,22 +97,49 @@ a.btn-rojo{
     width: 1024px;
     margin: 0 auto;
 }
-.content-info .info-2{
-    width: 820px;
+.content-respuesta-top-banner,
+.content-respuesta-main .main,
+.content-respuesta-info .info,
+.content-respuesta-info .info-2,
+.content-respuesta-banner .banner{
+    
+    width: 700px;
     margin: 0 auto;
+}
+.content-info .info-2{
+    width: 700px;
+    margin: 0 auto;
+}
+.bg-footer{
+    background-image: url('/images/bg-footer.png');
+    height: 115px;
 }
 .content-top-banner,
 .content-main,
-.content-contacto{
+.content-contacto,
+.content-respuesta-top-banner{
     color: #fff;
     background-color: #1d1d1b;
 }
 .content-top-banner .top-banner{
     padding: 70px 0px;
 }
+.content-respuesta-top-banner .top-banner{
+    padding: 20px 0px;
+}
 .content-banner{
     padding: 55px 25px;
     background-image: linear-gradient(to bottom,#c7d135, #c9d244);
+}
+.content-respuesta-banner .banner{
+    padding: 15px 25px;
+    background-color:#c7d135;
+}
+.txt-gracias{
+    margin-bottom: -40px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    background-color: #c7d1358f;
 }
 .info-2-verde{
     color: #fff;
@@ -130,6 +159,14 @@ a.btn-rojo{
     height: 1024px;
     padding: 40px 160px;
     background-image: url('../images/bg_landing.jpg');
+}
+.content-respuesta-main .main{
+    justify-content: space-between;
+    gap: 20px;
+    height: 380px;
+    padding: 10px 20px;
+    background-image: url('../images/bg-gracias.png');
+    background-size: cover;
 }
 .form{
     display: flex;
@@ -222,6 +259,13 @@ a.btn-rojo{
     background-repeat: no-repeat;
     background-position-x: -15px;
 }
+.content-respuesta-info .info{
+    padding: 40px 60px 40px;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    background-color: #fff;
+}
 .contorno{
     font-size: 9pt;
     color: #c7d135;
@@ -286,7 +330,16 @@ a.btn-rojo{
 .text-footer{
     justify-content: center;
 }
-
+.text-white{
+    color: #fff;
+    font-size: 9pt;
+    font-family: 'Work Sans Bold';
+}
+.divider-white{
+    width: 2px;
+    height: 76px;
+    background-color: #fff;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
