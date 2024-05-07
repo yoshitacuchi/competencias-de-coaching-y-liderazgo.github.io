@@ -107,11 +107,11 @@ a.btn-rojo{
     margin: 0 auto;
 }
 .content-info .info-2{
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
 }
 .bg-footer{
-    background-image: url('/images/bg-footer.png');
+    background-image: url('../images/bg-footer.png');
     height: 115px;
 }
 .content-top-banner,
@@ -302,8 +302,8 @@ a.btn-rojo{
 }
 .content-contacto{
     align-items: center;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 .contacto{
     font-size: 14pt;
