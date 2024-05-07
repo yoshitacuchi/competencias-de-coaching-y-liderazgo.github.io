@@ -320,4 +320,10 @@ a.btn-rojo{
     .cta-contacto{
         width: 100%;
     }
+    .banner img {
+        width: 300px;
+    }
+    .top-banner img {
+        width: 165px;
+    }
 }
