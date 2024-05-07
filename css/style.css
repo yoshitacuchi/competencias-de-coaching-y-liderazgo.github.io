@@ -145,6 +145,7 @@ a.btn-rojo{
     color: #fff;
     background-image: linear-gradient(to bottom, #c7d135,#bac628); 
     border-bottom: 20px solid #c7d135;
+    width: 50%;
 }
 .info-2-txt{
     font-size: 18pt;
@@ -297,12 +298,12 @@ a.btn-rojo{
     font-size: 10pt;
 }
 .txt-dato{
-    font-size: 9pt;
+    font-size: 8pt;
 }
 .content-contacto{
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 5px;
 }
 .contacto{
     font-size: 14pt;
@@ -310,6 +311,7 @@ a.btn-rojo{
 .txt-dato a{
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
 }
 .cta-contacto{
     display: flex;
@@ -363,6 +365,9 @@ a.btn-rojo{
         height: 680px;
         background-position-x: -50px;
         background-size: cover;
+    }
+    .info-2-verde{
+        width: 100%;
     }
     .info{
         background-size: cover;
